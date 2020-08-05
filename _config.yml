@@ -59,33 +59,33 @@ sidebar:
     author_links:
         github:
             title: global.github
-            url: https://github.com/
+            url: https://github.com/chrisjwelly
             icon: fab fa-github
-        stack_overflow:
-            title: global.stack_overflow
-            url: http://stackoverflow.com/users
-            icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/
-            icon: fab fa-twitter
-        facebook:
-            title: global.facebook
-            url: https://facebook.com/
-            icon: fab fa-facebook
-        google_plus:
-            title: global.google_plus
-            url: https://plus.google.com/
-            icon: fab fa-google-plus
+        #stack_overflow:
+            #title: global.stack_overflow
+            #url: http://stackoverflow.com/users
+            #icon: fab fa-stack-overflow
+        #twitter:
+            #title: global.twitter
+            #url: https://twitter.com/
+            #icon: fab fa-twitter
+        #facebook:
+            #title: global.facebook
+            #url: https://facebook.com/
+            #icon: fab fa-facebook
+        #google_plus:
+            #title: global.google_plus
+            #url: https://plus.google.com/
+            #icon: fab fa-google-plus
         linked_in:
             title: global.linkedin
-            url: https://www.linkedin.com/profile/
+            url: https://www.linkedin.com/profile/chrisjwelly
             icon: fab fa-linkedin
-        mail:
-            title: global.mail
-            url: mailto
-            icon: fa fa-envelope
-    rss:
+        #mail:
+            #title: global.mail
+            #url: mailto
+            #icon: fa fa-envelope
+    #rss:
         rss:
             title: global.rss
             url: /atom.xml
@@ -117,13 +117,13 @@ header:
 
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: chrisjwelly@gmail.com
+    location: Singapore
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: profile-picture.jpeg
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
@@ -155,7 +155,7 @@ sidebar_behavior: 1
 # enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
-thumbnail_image: true
+thumbnail_image: false
 # Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`)
 # Set this value to `right` if you have old posts to keep the old style on them
 # and define `thumbnailImagePosition` on a post to overwrite this setting
@@ -172,7 +172,7 @@ auto_thumbnail_image: true
 # Otherwise put your image in folder `source/_images/` (development)
 # or in `source/assets/images/` if you can't or don't want to build the theme,
 # and use relative url : `your-image.png`
-cover_image: cover.jpg
+cover_image: cover-v1.2.0.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
 favicon:
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
@@ -187,7 +187,7 @@ tag_pagination: true
 # ---------------
 
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: chrisjwelly
 # Your Gitment information
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
