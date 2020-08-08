@@ -64,7 +64,7 @@
                 <%- partial('post/meta', {post: post, classes: ['postShorten-meta']}) %>
             </div>
             <% if (post.excerpt || post.link) { %>
-                <div class="postShorten-excerpt">
+                <div class="postShorten-content">
                     <%- post.excerpt %>
                     <% if (post.link && _('post.go_to_website')) { %>
                         <a
